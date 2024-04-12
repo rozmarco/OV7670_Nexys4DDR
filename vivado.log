@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2018.3.1 (64-bit)
+# SW Build 2489853 on Tue Mar 26 04:20:25 MDT 2019
+# IP Build 2486929 on Tue Mar 26 06:44:21 MDT 2019
+# Start of session at: Tue Mar 12 13:34:59 2024
+# Process ID: 7812
+# Current directory: W:/ECE532/OV7670/OV7670
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1896 W:\ECE532\OV7670\OV7670\OV7670.xpr
+# Log file: W:/ECE532/OV7670/OV7670/vivado.log
+# Journal file: W:/ECE532/OV7670/OV7670\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project W:/ECE532/OV7670/OV7670/OV7670.xpr
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:nexys4_ddr:part0:1.1. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DESL/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_clk_wiz_0_0
+
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:52 . Memory (MB): peak = 784.230 ; gain = 150.387
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 12 13:48:37 2024...

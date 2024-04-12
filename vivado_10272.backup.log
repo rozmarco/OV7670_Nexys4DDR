@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2018.3.1 (64-bit)
+# SW Build 2489853 on Tue Mar 26 04:20:25 MDT 2019
+# IP Build 2486929 on Tue Mar 26 06:44:21 MDT 2019
+# Start of session at: Wed Mar  6 13:51:15 2024
+# Process ID: 10272
+# Current directory: W:/ECE532/OV7670/OV7670
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7184 W:\ECE532\OV7670\OV7670\OV7670.xpr
+# Log file: W:/ECE532/OV7670/OV7670/vivado.log
+# Journal file: W:/ECE532/OV7670/OV7670\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project W:/ECE532/OV7670/OV7670/OV7670.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DESL/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:45 . Memory (MB): peak = 941.152 ; gain = 74.625
+open_hw
+open_hw: Time (s): cpu = 00:00:02 ; elapsed = 00:00:21 . Memory (MB): peak = 941.152 ; gain = 0.000
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3.1
+  **** Build date : Mar 26 2019-05:02:51
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:01:13 . Memory (MB): peak = 941.152 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292646020A
+open_hw_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:45 . Memory (MB): peak = 1836.996 ; gain = 895.844
+set_property PROGRAM.FILE {W:/ECE532/OV7670/OV7670/OV7670.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 1843.055 ; gain = 4.609
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {W:/ECE532/OV7670/OV7670/OV7670.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1894.008 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:00 ; elapsed = 00:00:30 . Memory (MB): peak = 1894.008 ; gain = 0.000
+update_compile_order -fileset sources_1

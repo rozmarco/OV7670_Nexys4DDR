@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2018.3.1 (64-bit)
+# SW Build 2489853 on Tue Mar 26 04:20:25 MDT 2019
+# IP Build 2486929 on Tue Mar 26 06:44:21 MDT 2019
+# Start of session at: Wed Mar  6 13:51:15 2024
+# Process ID: 10272
+# Current directory: W:/ECE532/OV7670/OV7670
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7184 W:\ECE532\OV7670\OV7670\OV7670.xpr
+# Log file: W:/ECE532/OV7670/OV7670/vivado.log
+# Journal file: W:/ECE532/OV7670/OV7670\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project W:/ECE532/OV7670/OV7670/OV7670.xpr
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {W:/ECE532/OV7670/OV7670/OV7670.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {W:/ECE532/OV7670/OV7670/OV7670.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+update_compile_order -fileset sources_1
